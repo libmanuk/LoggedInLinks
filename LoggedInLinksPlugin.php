@@ -21,7 +21,7 @@
     protected $_hooks = array(
         'install',
         'uninstall',
-		'public_collections_show',
+	'public_collections_show',
         'public_items_show'
 	);
 	
@@ -65,7 +65,6 @@
         echo "</script>\n";
         echo "<!-- end show link to admin side collection edit in admin-bar nav -->\n";
         }
-        
-
+       
 }
 
