@@ -12,7 +12,6 @@
  * @package Omeka\Plugins\LoggedInLinks
  */
  
-
     class LoggedInLinksPlugin extends Omeka_Plugin_AbstractPlugin
     {
     
@@ -51,7 +50,8 @@
         echo "<!-- end show link to admin side item edit in admin-bar nav -->\n";
     }    
 	
-    public function hookPublicCollectionsShow(){
+    public function hookPublicCollectionsShow()
+    {
         echo "<!-- start show link to admin side collection edit in admin-bar nav -->\n";
         $id =  metadata('collection', 'id');
         echo "<script type=\"text/javascript\">\n";
@@ -64,7 +64,7 @@
         echo "}\n";
         echo "</script>\n";
         echo "<!-- end show link to admin side collection edit in admin-bar nav -->\n";
-        }
+    }
        
 }
 
