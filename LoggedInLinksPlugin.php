@@ -25,7 +25,7 @@
         'public_items_show'
 	);
 	
-	public function hookInstall()
+    public function hookInstall()
     {
         
     }
