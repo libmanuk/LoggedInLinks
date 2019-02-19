@@ -2,7 +2,7 @@
 /**
  * LoggedInLinks
  * 
- * @copyright Copyright 2018 Eric C. Weig 
+ * @copyright Copyright 2019 Eric C. Weig 
  * @license http://opensource.org/licenses/MIT MIT
  */
 
