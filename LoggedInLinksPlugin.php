@@ -20,7 +20,7 @@
     protected $_hooks = array(
         'install',
         'uninstall',
-	'public_collections_show',
+        'public_collections_show',
         'public_items_show'
 	);
 	
